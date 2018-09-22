@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 <h1>Hi, <%= @current_user %>.</h1>
 <%= form_tag ({controller: 'sessions', action: 'destroy', method: 'post'}) do %>
   <input type=submit value='logout'>
 <% end %>
 <a href="/secrets">Secret Page</a>
+=======
+<h1>Hi, <%= session[:name] %>.</h1>
+<%= form_tag ({controller: 'sessions', action: 'destroy', method: 'post'}) do %>
+  <input type=submit value='logout'>
+<% end %>
+<a href="/sessions/secret">Secret Page</a>
+>>>>>>> 6174312e7bc598ba15e33036c0f0aededff16f60

@@ -10,6 +10,12 @@ require 'rails_helper'
 #     end
 #   end
 # end
+<<<<<<< HEAD
 # RSpec.describe SessionsHelper, type: :helper do
 #   pending "add some examples to (or delete) #{__FILE__}"
 # end
+=======
+RSpec.describe SessionsHelper, type: :helper do
+  pending "add some examples to (or delete) #{__FILE__}"
+end
+>>>>>>> 6174312e7bc598ba15e33036c0f0aededff16f60

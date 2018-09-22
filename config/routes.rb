@@ -1,10 +1,17 @@
 Rails.application.routes.draw do
   root 'sessions#home'
+<<<<<<< HEAD
   get '/sessions/home' => 'sessions#home'
   get '/sessions/new' => 'sessions#new'
   post '/sessions/new' => 'sessions#create'
   post '/logout' => 'sessions#destroy'
   get '/secrets' => 'secrets#show'
+=======
+  get '/sessions/new' => 'sessions#new'
+  post '/sessions/new' => 'sessions#create'
+  post '/logout' => 'sessions#destroy'
+  get '/sessions/secret' => 'sessions#secret'
+>>>>>>> 6174312e7bc598ba15e33036c0f0aededff16f60
   
   
 
